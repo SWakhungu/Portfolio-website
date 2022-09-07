@@ -7,6 +7,10 @@
     }
 }
 
+body{
+    height: 100%;
+}
+
 nav{
     margin-left: 3em;
     margin-top: 5em;
@@ -18,17 +22,64 @@ ul {
     padding: 0;
     width: 130px;
     background-color: #FB8122;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color: #000;
     padding: 16px 20px;
     text-decoration: none;
-  }
+}
   
   
-  li a:hover {
+li a:hover {
     background-color: #1D2228;
     color: white;
+}
+
+.par1{
+    font-weight: bold;
+    font-size: 40px;
+    color: white
+}
+.par1 > span{
+    color: #FB8122;
+}
+
+.par2{
+    font-size: 36px;
+}
+
+.par3{
+    font-size: 25px;
+}
+.par2, .par3{
+    color: black;
+}
+
+#homeprofile{
+    background-image: url(pexels-jess-bailey-designs-743986.jpg;);
   }
+
+#portfolio{
+    margin-left: 70px;
+    padding: 20;
+    width: 180px;
+    background-color: #1D2228;
+    background-image: url(pexels-uzunov-rostislav-4754883.jpg;);
+    color: white;
+    font-size: 35px;
+  }
+#portfolio > ul{
+    margin: 20;
+    padding: 0;
+    width: 130px;
+    color: #000;  
+}
+#portfolio > port1{
+    color: #FB8122
+  }
+
+.getintouch{
+    font-size: 35px;
+}
