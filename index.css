@@ -7,12 +7,21 @@
     }
 }
 
+img{
+    float:right;
+    margin-right: 2em;
+}
+
 body{
     height: 100%;
+    background-image: url('/home/stevew/Development/code/Portfolio-website/pexels-jess-bailey-designs-743986.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 20px 10px 20px;
 }
 
 nav{
-    margin-left: 3em;
+    margin-left: 2em;
     margin-top: 5em;
 }
 
@@ -37,49 +46,61 @@ li a:hover {
     color: white;
 }
 
+
 .par1{
     font-weight: bold;
-    font-size: 40px;
-    color: white
+    font-size: 35px;
+    color: white;
+    text-align: right;
+    padding-left: 3em;
 }
 .par1 > span{
     color: #FB8122;
 }
 
 .par2{
-    font-size: 36px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .par3{
     font-size: 25px;
+    text-align: right;
 }
 .par2, .par3{
-    color: black;
+    color: white;
 }
 
 #homeprofile{
-    background-image: url(pexels-jess-bailey-designs-743986.jpg;);
+    /* display: flex; */
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    opacity: 0.8;
+    border-radius: 15px 50px 30px;
+    padding: 20px 25px 25px 25px;
+}
+#homeprofile:hover {
+    opacity: 1.0;
   }
 
 #portfolio{
-    margin-left: 70px;
+    /* margin-left: 70px;
     padding: 20;
-    width: 180px;
-    background-color: #1D2228;
-    background-image: url(pexels-uzunov-rostislav-4754883.jpg;);
-    color: white;
-    font-size: 35px;
+    width: 1400px; */
+    background-color: #FB8122;
+    /* display: flex; */
+    margin: 0.9em 2em 3em 2em;
+    /* margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em; */
+    /* background-image: url(pexels-uzunov-rostislav-4754883.jpg;);
+    color: white; */
+    font-size: 20px;
+    color:#000000;
+    border-radius: 15px 50px 30px;
+    padding: 25px 25px 25px 25px;
   }
-#portfolio > ul{
-    margin: 20;
-    padding: 0;
-    width: 130px;
-    color: #000;  
-}
-#portfolio > port1{
-    color: #FB8122
-  }
-
-.getintouch{
-    font-size: 35px;
+#prt{
+    font-size: 30px;
 }
