@@ -72,7 +72,6 @@ li a:hover {
 }
 
 #homeprofile{
-    /* display: flex; */
     margin-bottom: 3em;
     margin-left: 2em;
     margin-right: 2em;
@@ -85,17 +84,8 @@ li a:hover {
   }
 
 #portfolio{
-    /* margin-left: 70px;
-    padding: 20;
-    width: 1400px; */
     background-color: #FB8122;
-    /* display: flex; */
     margin: 0.9em 2em 3em 2em;
-    /* margin-bottom: 3em;
-    margin-left: 2em;
-    margin-right: 2em; */
-    /* background-image: url(pexels-uzunov-rostislav-4754883.jpg;);
-    color: white; */
     font-size: 20px;
     color:#000000;
     border-radius: 15px 50px 30px;
