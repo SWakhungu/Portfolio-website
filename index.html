@@ -11,7 +11,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">                 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">                 
     </head>
     <body>
         <nav class="navbar">
@@ -28,38 +30,44 @@
         </nav>
         <hr />
         <div id="homeprofile" style="background-image: url('/home/stevew/Development/code/Portfolio-website/pexels-swapnil-sharma-1798642.jpg');">
-                <p class="par1">Hi, I'm <span>Steve Wakhungu</span>
-                <br>a <span>Dev</span>eloper</p>
+                <p id="home">About me</p>
+                <p class="par1">Hi <span class="wave">👋</span>, I'm <span>Steve Wakhungu</span>,
+                <br>a <span>Dev</span>eloper.</p>
                 <br>
-                <p class="par2">I love art and design and I write about fitness. Click <a href="https://www.essdoubleyou.com">this link</a> to see my artworks and blogs.</p>
-                <br>
-                <p class="par3">Chinmai Swamy said, <q><i class="italic">To conquer your fears, you must be willing to accept the new change.</i></q> That's exactly what I'm doing now!</p> 
+                <p class="par2">I love art and design and I write about fitness. Click <a href="https://www.essdoubleyou.com" style="color: #FB8122">this link</a> to see my artworks and blogs.</p>
+                <p class="par3">Chinmai Swamy, the founder of Coaching Launchpad, once said, <q><i class="italic">To conquer your fears, you must be willing to accept ... change.</i></q> That's exactly what I'm doing now in pivoting to web development thanks in no small part to <a href="https://moringaschool.com/" style="color: #FB8122"> Moringa School</a>!</p> 
         </div>
         <div id="portfolio">
             <p id="prt">Portfolio</p>
             <br>
             <br>
-            [<i class="devicon-html5-plain-wordmark"></i> <i class="devicon-css3-plain-wordmark"></i> 
-            <i class="devicon-sass-original"></i>
-            <i class="devicon-javascript-plain"></i> 
-            <i class="devicon-react-original-wordmark"></i> 
-            <i class="devicon-vscode-plain-wordmark"></i>
-            <i class="devicon-git-plain"></i> 
-            <i class="devicon-figma-plain"></i>]
+            <div id="icons" >const myTechTools = 
+                [<i class="devicon-html5-plain-wordmark"></i>,
+                <i class="devicon-css3-plain-wordmark"></i>, 
+                <i class="devicon-sass-original"></i>,
+                <i class="devicon-javascript-plain"></i>, 
+                <i class="devicon-react-original-wordmark"></i>, 
+                <i class="devicon-vscode-plain-wordmark"></i>,
+                <i class="devicon-git-plain"></i>, 
+                <i class="devicon-figma-plain"></i>]
+            </div>
             <br>
-            <p><a href="https://www.essdoubleyou.com">www.essdoubleyou.com</a> (personal website; made using Wix, a website building platform which enables creation of <i class="devicon-html5-plain-wordmark"></i> websites and mobile sites through the use of online drag-and-drop tools)
             <br>
-            <p>www.check-mech.com (a web app coded in <i class="devicon-html5-plain-wordmark"></i>, 
+            <p<i id="port" class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://www.essdoubleyou.com">www.essdoubleyou.com</a> (personal website; made using Wix, a website building platform which enables creation of <i class="devicon-html5-plain-wordmark"></i> websites and mobile sites through the use of online drag-and-drop tools), </p>
+            <p><i id="port" class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://swakhungu.github.io/Art-Shoppe/">The Art Shoppe</a> (my first attempt at web development using <i class="devicon-html5-plain-wordmark"></i>, <i class="devicon-css3-plain-wordmark"></i>, having some event-handling interactivity using <i class="devicon-javascript-plain"></i> ; API integration with <a href="https://disify.com/">disify</a> for email authentication enabled),</p>
+            <p><i id="port" class="fa fa-folder-open" aria-hidden="true"></i> This website you're on,</p>
+            <p><i id="port" class="fa fa-folder" aria-hidden="true"></i> www.check-mech.com (a CRUD web app designed in <i class="devicon-figma-plain"></i> and coded in <i class="devicon-html5-plain-wordmark"></i>, 
                 <i class="devicon-css3-plain-wordmark"></i>
               , and 
               <i class="devicon-javascript-plain"></i>
-             and still a WIP)</p>
+             ; still a WIP),</p>
         </div>
+        <hr />
         <address>
-            &#169 <a href="mailto:stwakhungu@gmail.com">Email me</a><br> 
-            <span>&#9742; +254-721-231-559 <b>&&</b> +254-781-704-966</span>
+            <i id="email" class="fa fa-envelope"></i> <a href="mailto:stwakhungu@gmail.com"> Email me</a><br> 
+            <span>&#9742; <b>+254-721-231-559 && +254-781-704-966</b></span>
             <br>
-            Nairobi, Kenya
+            <i id="location" class="fa fa-map-marker fa-5x"></i> Nairobi, Kenya
             <br>
         </address>    
     </body>
