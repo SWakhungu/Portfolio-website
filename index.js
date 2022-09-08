@@ -1,4 +1,7 @@
-const btnEl = document.getElementById("btn")
-btnEl.addEventListener("click", function(){
-    btnEl.innerText = "Submitted!"
+const button = document.querySelector('.btn')
+
+button.addEventListener('click', () => {
+    button.classList.toggle('liked')
 })
+
+  
