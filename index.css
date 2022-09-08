@@ -23,6 +23,7 @@ body{
 nav{
     margin-left: 2em;
     margin-top: 5em;
+    font-size: 20px;
 }
 
 ul {
@@ -70,6 +71,12 @@ li a:hover {
 .par2, .par3{
     color: white;
 }
+.par1, .par2, .par3{
+    line-height: 1.6;
+}
+.italic{
+    font-size: 25px;
+}
 
 #homeprofile{
     margin-bottom: 3em;
@@ -86,11 +93,23 @@ li a:hover {
 #portfolio{
     background-color: #FB8122;
     margin: 0.9em 2em 3em 2em;
-    font-size: 20px;
     color:#000000;
     border-radius: 15px 50px 30px;
     padding: 25px 25px 25px 25px;
   }
 #prt{
     font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#portfolio > p{
+    font-size: 25px;
+    line-height: 1.6;
+}
+.tools{
+    /* text-align: center; */
+}
+i{
+    font-size: 40px;
 }
