@@ -4,6 +4,7 @@ button.addEventListener('click', () => {
     button.classList.toggle('liked')
 })
 
+
 let myButton = document.getElementById("myBtn");
 
 window.onscroll = function(){scrollFunction()};
