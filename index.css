@@ -34,6 +34,7 @@ nav{
     font-weight: bold;
     text-align: center;
     overflow: auto;
+    display: flexbox;
 }
 
 ul {
@@ -182,7 +183,8 @@ hr{
 }
 
 .btn {
-    width: 35px; height: 22px;
+    width: 35px; 
+    height: 22px;
     margin-left: 2em;
     padding: 2px 2px;
     font-family: fa;
@@ -292,3 +294,30 @@ hr{
     background-color: #282f38;
     color: white;
   }
+
+#cellbtn{
+    font-size: 20px;
+    font-style: italic;
+    font-family: fa;
+    background-color: #FB8122;
+    border-radius: 4px
+}  
+
+#cellbtn:hover {
+    background-color: #282f38;
+    color: white;
+  }
+
+#myDIV {
+    width: 100%;
+    text-align: center;
+    background-color: none;
+    margin-top: 8px;
+    margin-bottom: 0;
+    border: none
+}
+ 
+#blur{
+    filter:blur(3px);
+    -webkit-filter: blur(4px);
+}
