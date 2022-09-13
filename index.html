@@ -2,10 +2,7 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8"/>
-        <meta name="viewport" content="initial-scale=1, width=device-width"/>
-        <img src="https://static.wixstatic.com/media/37df9e_7eefbd351d6d45e78c01a9962d893066~mv2.png/v1/fill/w_80,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Sw.png" width="80" height="80"
-            alt="my personal logo self designed">
-        <img src="/home/stevew/Development/code/Portfolio-website/portrait.jpg" alt="my portrait photo" width="250" height="240">    
+        <meta name="viewport" content="initial-scale=1, width=device-width"/>    
         <title>Wakhungu's portfolio website</title>
         <link rel="stylesheet" href="index.css"/>
         <link rel="icon" href="./logo.jpg">
@@ -17,32 +14,37 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">                 
     </head>
     <body>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="https://www.linkedin.com/in/steve-wakhungu/"><i class="devicon-linkedin-plain"></i>
-                </i></a></li>
-                <li><a href="https://github.com/SWakhungu">
-                    <i class="devicon-github-original"></i>
-                  </a></li>
-                <li><a href="https://twitter.com/home"><i class="devicon-twitter-original"></i></a></li>
-            </ul>
-        </nav>
-        <hr />
+        <div id="head">
+            <nav class="navbar">
+              <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="https://www.linkedin.com/in/steve-wakhungu/"><i class="devicon-linkedin-plain"></i>
+                  </i></a></li>
+                  <li><a href="https://github.com/SWakhungu">
+                      <i class="devicon-github-original"></i>
+                    </a></li>
+                  <li><a href="https://twitter.com/home"><i class="devicon-twitter-original"></i></a></li>
+              </ul>
+            </nav>
+            <img src="https://static.wixstatic.com/media/37df9e_7eefbd351d6d45e78c01a9962d893066~mv2.png/v1/fill/w_80,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Sw.png" width="80" height="80"
+            alt="my personal logo self designed">
+            <img src="/home/stevew/Development/code/Portfolio-website/portrait.jpg" alt="my portrait photo" width="250" height="240">
+        </div>  
+        <hr>
         <div id="homeprofile" style="background-image: url('/home/stevew/Development/code/Portfolio-website/pexels-swapnil-sharma-1798642.jpg');">
                 <p id="home">About me</p>
                 <p class="par1"><span class="wave">👋</span>, I'm <span>Steve Wakhungu</span>
                 <br>a <span>Dev</span>eloper</p>
                 <br>
-                <p class="par2">I love art and design and I write about fitness. Click <a href="https://www.essdoubleyou.com" style="color: #FB8122">this link</a> to see my artworks and blogs</p>
+                <p class="par2">I love art and design, and write about fitness. Click <a href="https://www.essdoubleyou.com" style="color: #FB8122">this link</a> to see my artworks and blogs</p>
                 <p class="par3">Chinmai Swamy, the founder of Coaching Launchpad, once said, <q><i class="italic">To conquer your fears, you must be willing to accept ... change.</i></q> That's exactly what I'm doing now in pivoting to web development thanks in no small part to <a href="https://moringaschool.com/" style="color: #FB8122"> Moringa School</a></p> 
         </div>
         <div id="portfolio">
             <p id="prt">Portfolio</p>
             <br>
             <br>
-            <div id="icons" >const myTechTools = 
+            <div id="icons" >var myTechTools = 
                 [ <i class="devicon-html5-plain-wordmark"></i>,
                 <i class="devicon-css3-plain-wordmark"></i>, 
                 <i class="devicon-sass-original"></i>,
@@ -103,7 +105,7 @@
         <hr />
         <address>
             <i id="email" class="fa fa-envelope"></i> <a href="mailto:stwakhungu@gmail.com" target="_blank"> Email me</a><br> 
-            <span>&#9742; <button id="cellbtn" onclick="myFunction()">Click to reveal</button></span>
+            <span>&#9742; <button id="cellbtn" onclick="myFunction()">click click to reveal</button></span>
             <div id="myDIV">
             <b>+254-721-231-559</b>
             </div>
