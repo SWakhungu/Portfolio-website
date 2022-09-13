@@ -3,7 +3,7 @@ I'm sharpening my web development skills with this project and improving on my i
 As usual I have employed HTML, CSS and JavaScript.
 
 # Live link
-()
+(https://swakhungu.github.io/Portfolio-website/)
 
 # Author
 Steve Wakhungu
