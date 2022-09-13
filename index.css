@@ -18,6 +18,26 @@ img{
     -khtml-box-shadow: 10px 10px 5px #1D2228;
 }
 
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 body{
     height: 100%;
     background-image: url('/home/stevew/Development/code/Portfolio-website/pexels-jess-bailey-designs-743986.jpg');
@@ -190,7 +210,7 @@ hr{
     font-family: fa;
     font-weight: bold;
     outline: 0;
-    border: 2px solid #ccc;
+    border: 2px solid #1D2228;
     color: #000;
     cursor: pointer;
     overflow: hidden;
@@ -274,7 +294,24 @@ hr{
 .liked .btn-content--default {
     transform: translate(24px)
 }
-   
+
+.buttonload {
+    background-color: white; 
+    border: none;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid #1D2228;
+    font-weight: bold;
+    cursor: pointer;
+    font: fa; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px;
+    width: 65px; 
+    height: 52px;
+    margin-left: 2em;
+    padding: 2px 2px; /* Set a font size */
+  }
+
 #myBtn{
     display: none;
     position: fixed;
@@ -314,7 +351,8 @@ hr{
     background-color: none;
     margin-top: 8px;
     margin-bottom: 0;
-    border: none
+    border: none;
+    display: none;
 }
  
 #blur{
