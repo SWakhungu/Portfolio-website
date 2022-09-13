@@ -170,6 +170,8 @@ li a:hover {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 4px;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 #icons{
