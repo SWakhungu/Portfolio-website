@@ -1,10 +1,11 @@
-const button = document.querySelector('.btn')
+const buttons = document.querySelectorAll('.btn')
 
-button.addEventListener('click', () => {
-    button.classList.toggle('liked')
+buttons.forEach((button) =>{
+    button.addEventListener('click', () => {
+        button.classList.toggle('liked')
+    })
 })
-
-
+    
 let myButton = document.getElementById("myBtn");
 
 window.onscroll = function(){scrollFunction()};
