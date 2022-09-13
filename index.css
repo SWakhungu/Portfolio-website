@@ -40,7 +40,7 @@ img:hover {
 
 body{
     height: 100%;
-    background-image: url('/home/stevew/Development/code/Portfolio-website/pexels-jess-bailey-designs-743986.jpg');
+    background-image: url('pexels-jess-bailey-designs-743986.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px 20px 10px 20px;
